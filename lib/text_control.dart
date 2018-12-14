@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
-// import './product_manager.dart';
 
-main() => runApp(MyApp());
-
-class MyApp extends StatefulWidget {
+class TextControl extends StatefulWidget{
   @override
-  State<StatefulWidget> createState() {
-    return (MyAppState());
-  }
+    State <StatefulWidget> createState(){
+      return _TextControlState;
+    }
 }
 
-class MyAppState extends State<MyApp> {
-  String _mainText = 'originalString';
+class _TextControlState extends State<TextControl>{
+    String _mainText = 'originalString';
 
   @override
   Widget build(BuildContext context) {
